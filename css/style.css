@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../css/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.open {
+  font-size: 25px;
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 13px;
+  padding-left: 10px;
+  color: white;
+  transition: 0.5s;
+  border-radius: 15px;
+  border-bottom: 1px solid white;
+}
+
+.head:hover {
+  background: rgba(10, 188, 233, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  border-left: 7px solid white;
+  border-radius: 15px;
+}
+
+.head i {
+  color: white;
+  font-size: 20px;
+}
+
+.links {
+  background: rgb(96 159 175 / 30%);
+  border-radius: 15px;
+  display: none;
+}
+
+.container:hover .links {
+  display: block;
+}
+
+
+li {
+  padding: 13px;
+  padding-left: 10px;
+  color: white;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+li:hover {
+  background: rgba(10, 188, 233, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  border-left: 7px solid white;
+  border-radius: 15px;
+}
+
+li i {
+  padding-right: 10px;
+  color: white;
+}
